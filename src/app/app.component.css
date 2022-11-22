@@ -1,0 +1,161 @@
+.headerContainer {
+  height: 150px;
+  background: linear-gradient(to right, #ed6c82, #fd9f6e);
+  border-radius: 0 0 0 70px;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.companyImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: white;
+}
+
+.userImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: red;
+}
+
+.schoolName {
+  color: white;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+}
+
+.userCard {
+  position: absolute;
+  height: 100px;
+  width: 70%;
+  background: white;
+  border-radius: 10px;
+  bottom: -50px;
+  box-shadow: 5px 10px #888888
+}
+
+.userName {
+  font-size: 16px;
+}
+
+.userDesc {
+  font-size: 14px;
+}
+
+.paddingMarginForContent {
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.userContent {
+  padding-left: 10px;
+}
+
+.activeNowCard {
+  height: 200px;
+  background: linear-gradient(#a91ca6, #6c14cf);
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 75px;
+  border-radius: 16px;
+  padding: 16px;
+  position: relative;
+}
+
+.activeNowCta {
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+.ownModal {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.modalContainer {
+  background: white;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+}
+
+.cancelIcon {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin: 20px;
+}
+
+.modalContent {
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.inputClass {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid cadetblue;
+  margin-bottom: 30px;
+}
+
+.inputClass:active {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid cadetblue;
+}
+
+.inputClass:focus-visible {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid cadetblue;
+}
+
+.cancelButton {
+  background: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  width:150px;
+}
+
+.activateButton {
+  background: lightseagreen;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  width:150px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.successImage {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
